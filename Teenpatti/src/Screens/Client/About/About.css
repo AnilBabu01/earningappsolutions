@@ -1,0 +1,35 @@
+.about_text{
+    color: #6ec1e4;
+    margin-top: 1rem;
+}
+.about_text_div{
+    border-bottom: 1px solid gray;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding-bottom: 1rem;
+}
+
+.content_div{
+    width: 35%;
+   
+}
+
+.content_div p{
+    font-size:16px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 780px) {
+   
+.content_div{
+    width: 100%;
+    padding: 10px;
+   }
+   .about_text_div{
+  width: 100%;
+  padding: 10px;
+}
+  }

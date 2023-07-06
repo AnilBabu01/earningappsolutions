@@ -1,0 +1,39 @@
+.footer_main{
+    width: 35%;
+    background-color: #061595;
+}
+
+.marguee_style{
+    border: "solid"!important;
+    color: "white"!important;
+    margin: "0.2rem"!important
+}
+.main_Tele_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_booton_link_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 1.5rem;
+}
+
+.main_booton_link_div a{
+    color: white;
+    text-decoration: white;
+}
+.copy_text_right{
+    text-align: center;
+    color: white;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+@media screen and (max-width: 780px) {
+    .footer_main{
+        width: 100%;
+     }
+  }

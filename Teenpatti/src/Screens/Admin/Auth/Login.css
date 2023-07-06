@@ -1,0 +1,11 @@
+.login_form_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_content{
+    background-color: #e6d4d4;
+    padding: 1rem;
+    border-radius: 9px;
+    margin-top: 15%;
+}
